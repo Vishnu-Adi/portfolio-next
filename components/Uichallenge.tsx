@@ -14,52 +14,52 @@ import project11Image from '../public/assets/ui14.png';
 export const products = [
   {
     title: "Airbnb",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project2Image,
   },
   {
     title: "Education Website Design",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project4Image,
   },
   {
     title: "Drone",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project3Image,
   },
   {
     title: "Instagram",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project5Image,
   },
   {
     title: "Desktop UI",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project6Image,
   },
   {
     title: "Desktop UI",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project7Image,
   },
   {
     title: "Mobile UI",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project8Image,
   },
   {
     title: "Mobile UI",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project9Image,
   },
   {
     title: "Mobile UI",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project10Image,
   },
   {
     title: "Mobile UI",
-    link: "https://www.behance.net/dheerajjha2",
+    link: "",
     thumbnail: project11Image,
   },
 ];
