@@ -5,7 +5,7 @@ export default function Footer () {
         <div className="container mx-auto">
           <div className="flex items-center justify-center">
             <p className="text-sm">
-              © {new Date().getFullYear()} Dheeraj Jha. All rights reserved.
+              © {new Date().getFullYear()} Vishnu Adithya 
             </p>
           </div>
         </div>

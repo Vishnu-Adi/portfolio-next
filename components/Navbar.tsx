@@ -11,14 +11,10 @@ const navItems = [
   },
   {
     path: "/UI",
-    name: "UI",
+    name: "",
     icon: <HiOutlineViewGrid className="w-6 h-6" />,
   },
-  {
-    path: "/Blogs",
-    name: "Blogs",
-    icon: <HiOutlineChatAlt className="w-6 h-6" />,
-  },
+ 
 ];
 
 const Navbar = () => {
@@ -41,16 +37,16 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 top-0 bg-gradient-to-r from-black via-gray-800 to-black shadow-lg transition-all duration-300 ${
+      className={`fixed w-full z-50 top-0  bg-gradient-to-r from-black via-gray-800 to-black shadow-lg transition-all duration-300 ${
         scrolling ? 'py-2' : 'py-4'
       }left-0 right-0`}
     >
-      <div className="container mx-auto flex items-center justify-between px-4">
+      <div className="container mx-auto flex h-24 items-center justify-between px-4">
         <div className="flex items-center space-x-4">
           <button onClick={toggleMobileMenu} className="text-white focus:outline-none md:hidden">
             <HiOutlineMenu className="w-6 h-6" />
           </button>
-          <h1 className="text-2xl font-bold text-white">Dheeraj Jha</h1>
+          <h1 className="text-2xl font-bold text-white">Vishnu Adithya</h1>
         </div>
         {mobileMenuOpen && (
           <div className="absolute top-full left-0 w-full bg-gray-900 py-2 md:hidden">

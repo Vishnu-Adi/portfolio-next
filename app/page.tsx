@@ -7,12 +7,17 @@ import Footer from '@/components/Footer';
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-black">
+   
+    <div className=" bg-black">
+      <div className="mb-40">
       <Navbar />
+      </div>
       <div className="dark:bg-black bg-white dark:bg-grid-white/[0.05]">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl min-h-screen mx-auto">
           <HeroSection />
+         
         </div>
+        
         <div className="max-w-7xl mx-auto my-20 sm:my-20">
           <Skills />
         </div>
@@ -20,7 +25,7 @@ export default function Page() {
           <Projects />
         </div>
       </div>
-      <Footer/>
+     
     </div>
   );
 }

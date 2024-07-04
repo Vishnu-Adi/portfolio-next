@@ -6,15 +6,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { cn } from '@/lib/utils';
-import project1Image from '../public/assets/StudBud1.jpeg';
-import project2Image from '../public/assets/QR.png';
-import project3Image from '../public/assets/wordlist.png';
-import project4Image from '../public/assets/OncoScout.png';
-import project7Image from '../public/assets/Desktop2.png';
-import project5Image from '../public/assets/2.jpeg';
-import project6Image from '../public/assets/news.png';
-import project8Image from '../public/assets/Design.png';
-import project9Image from '../public/assets/Briantumor1.png';
+import project1Image from '../public/assets/p1.jpg';
+import project2Image from '../public/assets/p1.jpg';
+import project3Image from '../public/assets/p1.jpg';
+import project4Image from '../public/assets/p1.jpg';
+import project5Image from '../public/assets/p1.jpg';
+import project6Image from '../public/assets/p1.jpg';
+import project7Image from '../public/assets/p1.jpg';
+import project8Image from '../public/assets/p1.jpg';
+import project9Image from '../public/assets/p1.jpg';
 
 export default function Project() {
   const projects = [
